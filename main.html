@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUP Navigator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body id = "body">
+    <header>
+        <img src="puplogo.png" alt="logo" class="logo">
+        <h2>POLYTECHNIC UNIVERSITY OF THE PHILIPPINES</h2>
+    </header>
+
+    <main>
+        <h1>PUP Navigator</h1>
+        <img id="pupmap" src="map.png" alt="PUP Map" usemap="#map">
+        <map name="map">
+                
+            <!--1 PUP Amphitheater-->
+            <area shape="poly" 
+            coords="290,279,283,278,277,277,268,275,257,274,254,273,
+            244,273,243,282,250,291,265,297,278,295,287,295,290,279"
+            alt="PUP Amphitheater" 
+            onmouseover="showSceneryBox('images/pupamphi.jpg', 
+                                        'PUP Amphitheater', 
+                                        'This is where students come to eat their lunch that they bought or brought with them. Beware of birds pooping on your head.')" 
+            onmouseout="removeSceneryBox()">
+
+            <!--2 Water Pump Facility-->
+            <area shape="rect" 
+                    coords="175,40,
+                            198,59" 
+                    href="#" 
+                    alt="Water Pump Facility" 
+                    onmouseover="showSceneryBox('images/pupwaterpump.jpg',
+                                                'Water Pump Facility',
+                                                'This water pump facility is used by PUP to sustain the water resources needs by the campus.')"              
+                    onmouseout="removeSceneryBox()">
+
+            <!--3 Campus Development and Maintenance Building-->
+            <area shape="rect" 
+                    coords="211,480,
+                            266,496" 
+                    href="#" 
+                    alt="Campus Development and Maintenance Building" 
+                    onmouseover="sceneryBoxNoImg('Campus Development and Maintenance Building',
+                                                'This is where all infrastracture planning, campus development, and the maintenance of all facilities are being checked.')"              
+                    onmouseout="removeSceneryBox()">
+            
+            <!--4 Catwalk-->
+            <area shape="rect" 
+            coords="448,212,
+                    627,222" 
+            href="#" 
+            alt="Catwalk" 
+            onmouseover="showLongText('images/pupcatwalk.jpg',
+                                        'Catwalk',
+                                        'A very known street near the campus. Lots of gimmicks are held in this street by our fellow isko and iska especially busking! Also, this street is known for having isko and iska getting tripped over the unevent pavements of the said catwalk.')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--5 Centennial Monument-->
+            <area shape="rect" 
+            coords="339,217,
+                    358,235" 
+            href="#" 
+            alt="Catwalk" 
+            onmouseover="showSceneryBox('images/pupcentennialmonument.jpg',
+                                        'Centennial Monument',
+                                        'The Centennial Monument symbolizes the commemoration of its 100th foundation.')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--6 Charlie del Rosario Building-->
+            <area shape="poly" 
+            coords="96,175,
+                    83,198,
+                    165,246
+                    178,222" 
+            href="#" 
+            alt="Charlie del Rosario Building" 
+            onmouseover="showSceneryBox('images/pupcharliedelrosariobuilding.jpg',
+                                        'Charlie del Rosario Building',
+                                        'A building built for the name itself, Charlei Del Rosario, an activist and desaparacido, and one of the first victim of the Marcos Regime.')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--7 East Gate-->
+            <area shape="rect" 
+            coords="619,458,
+                    644,476" 
+            href="#" 
+            alt="Catwalk" 
+            onmouseover="sceneryBoxNoImg('East Gate',
+                                        'Upon entering this gate, the nearest PUP landmark is the PUP Track and Football Oval.')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--8 Flag Pole-->
+            <area shape="circle" 
+            coords="368,305,10" 
+            href="#" 
+            alt="Flag Pole" 
+            onmouseover="showSceneryBox('images/pupflagpole.jpg',
+                                        'Flag Pole',
+                                        'The PUP Flag Pole, located between the PUP Northwing and the PUP Freedom Park')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--9 Grandstand-->
+            <area shape="poly" 
+            coords="476,291,
+                    488,301,
+                    449,360,
+                    435,351" 
+            href="#" 
+            alt="Grandstand" 
+            onmouseover="showSceneryBox('images/pupgrandstand.jpg',
+                                        'Grandstand',
+                                        'The PUP Grandstand, located in front of the PUP Track and Field Oval')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--10 Gymnasium and Sports Center-->
+            <area shape="rect" 
+            coords="467,56,
+                    579,114" 
+            href="#" 
+            alt="Gymnasium and Sports Center" 
+            onmouseover="showSceneryBox('images/pupgym.jpg',
+                                        'Gymnasium and Sports Center',
+                                        'PUP Gymnasium and Sports Center, where the PUP Mighty Maroons train to compete for various atheletic competitions. A home and events place to any PUP related events too.')"              
+            onmouseout="removeSceneryBox()">
+
+            <!--11 PUP Interfaith Chapel-->
+            <area shape="circle" 
+                    coords="345,414,51" 
+                    href="#" 
+                    alt="PUP Chapel" 
+                    onmouseover="showSceneryBox('images/pupchapel.jpg', 
+                                                'PUP Interfaith Chapel', 
+                                                'This is where students, professors and other people come to pray. This is also used as a practice area by dancers and athletes.')" 
+                    onmouseout="removeSceneryBox()">
+
+            <!--12 PUP Laboratory High School-->
+            <area shape="poly" 
+                        coords="183,204
+                                189,194,
+                                164,95,
+                                104,60,
+                                87,79,
+                                82,88,
+                                71,110,
+                                79,143,
+                                183,204" 
+                    href="#" 
+                    alt="PUP Laboratory High School" 
+                    onmouseover="showSceneryBox('images/PUPLHS.jpg', 
+                                                'PUP Laboratory High School', 
+                                                'This building was establish in 1954. Known to be one of the top performing high schools in the country.')" 
+                    onmouseout="removeSceneryBox()">
+
+            <!--13 PUP Lagoon-->
+            <area shape="poly" 
+                            coords="237,268,
+                                    312,260,
+                                    327,238,
+                                    306,204,
+                                    305,157,
+                                    285,160,
+                                    289,195,
+                                    265,245" 
+                    href="#" 
+                    alt="PUP Lagoon" 
+                    onmouseover="showSceneryBox('images/puplagoon.jpg', 
+                                                'PUP Lagoon', 
+                                                'The landmark of PUP, people usually admire the view of the lagoon.')" 
+                    onmouseout="removeSceneryBox()">
+            
+            <!--14 PUP Dome-->
+            <area shape="poly" 
+                            coords="247,328,
+                                    269,328,
+                                    288,363,
+                                    276,381,
+                                    237,385,
+                                    225,363,
+                                    247,328" 
+                    href="#" 
+                    alt="Dome" 
+                    onmouseover="showSceneryBox('images/pupdome.jpg', 
+                                                'PUP Dome', 
+                                                'Located in the middle of the main building of PUP')" 
+                    onmouseout="removeSceneryBox()">
+            
+            <!--15 PUP East Wing-->
+            <area shape="poly" 
+                            coords="237,385,
+                                    235,467,
+                                    243,467,
+                                    243,471,
+                                    252,471,
+                                    252,476,
+                                    266,477,
+                                    266,468,
+                                    274,468,
+                                    276,382,
+                                    237,385" 
+                    href="#" 
+                    alt="East Wing" 
+                    onmouseover="showSceneryBox('images/pupeast.jpg', 
+                                                'PUP East Wing', 
+                                                'Within the PUP East Wing is the PUP Admission Services, located at the ground floor of the main building.')"
+                    onmouseout="removeSceneryBox()">
+            
+            <!--16 PUP North Wing-->
+            <area shape="poly" 
+                            coords="340,289,
+                                    342,294,
+                                    350,291,
+                                    358,305,
+                                    355,308,
+                                    359,313,
+                                    355,315,
+                                    359,324,
+                                    288,362,
+                                    268,328" 
+                    href="#" 
+                    alt="" 
+                    onmouseover="showSceneryBox('images/pupnorth.jpg', 
+                                                'PUP North Wing', 
+                                                'This is where CCiS Students wait for the approval of the Dean')" 
+                    onmouseout="removeSceneryBox()">
+            
+            <!--17 PUP South Wing-->
+            <area shape="poly" 
+                            coords="187,350,
+                                    227,423,
+                                    223,426,
+                                    230,440,
+                                    196,460,
+                                    188,447,
+                                    183,449,
+                                    143,374,
+                                    147,371,
+                                    141,359,
+                                    177,340,
+                                    182,351" 
+                    href="#" 
+                    alt="PUP South Wing" 
+                    onmouseover="showSceneryBox('images/pupsouthwing.jpg', 
+                                                'PUP South Wing', 
+                                                'Within the PUP South Wing are the Office of the Vice President for Branches and Campuses and the Office of the University Registrar')" 
+                    onmouseout="removeSceneryBox()"> 
+
+            <!--18 PUP West Wing-->
+            <area shape="poly" 
+                            coords="225,363,
+                                    155,320,
+                                    158,313,
+                                    151,308,
+                                    160,296,
+                                    164,298,
+                                    167,290,
+                                    172,292,
+                                    177,284,
+                                    247,328,
+                                    225,363" 
+                    href="#" 
+                    alt="PUP West Wing" 
+                    onmouseover="showSceneryBox('images/pupwest.jpg', 
+                                                'PUP West Wing', 
+                                                'This is where CCIS students interview PolSci students for their research.')" 
+                    onmouseout="removeSceneryBox()"> 
+            
+            <!--19 PUP Main Gate-->
+            <area shape="circle" 
+                            coords="638,230,7" 
+                    href="#" 
+                    alt="PUP Main Gate" 
+                    onmouseover="showSceneryBox('images/pupgate.jpg',
+                                                'PUP Main Gate', 
+                                                'This is the entrance gate to the PUP Sta. Mesa Campus.')" 
+                    onmouseout="removeSceneryBox()">
+            
+            <!--20 PUP Freedom Park-->
+            <area shape="circle" 
+                            coords="384,282,7" 
+                    href="#" 
+                    alt="PUP Freedom Park" 
+                    onmouseover="showSceneryBox('images/pupfreedompark.jpg',
+                                                'PUP Freedom Park', 
+                                                'This is the entrance gate to the PUP Sta. Mesa Campus.')" 
+                    onmouseout="removeSceneryBox()">
+            
+            <!--21 Ninoy Aquino Building-->
+            <area shape="poly" 
+                    coords="209,58,
+                            239,50,
+                            253,108,
+                            306,95,
+                            314,122,
+                            260,138,
+                            276,197,
+                            247,205,
+                            230,141,
+                            221,144,
+                            215,125,
+                            226,121,
+                            209,58" 
+                    href="#" 
+                    alt="Ninoy Aquino Building" 
+                    onmouseover="showSceneryBox('images/pupaquino.jpg',
+                                                'Ninoy Aquino Building',
+                                                'This is where students go to get some reading materials and resources for their courses. It is also a place of rest for some students.')" 
+                    onmouseout="removeSceneryBox()">
+
+            <!--22 PUP Basketball and Volleyball Court-->
+            <area shape="poly" 
+                    coords="429,143,
+                            446,143,
+                            452,143,
+                            469,143,
+                            469,180,
+                            452,180,
+                            447,180,
+                            429,180,
+                            429,143" 
+                    href="#" 
+                    alt="PUP Basketball Court" 
+                    onmouseover="showSceneryBox('images/pupbasketball.jpg', 
+                                                'PUP Basketball and Volleyball Court', 
+                                                'This is where students can play Volleyball and Basketball, and where PE Professors host their activities related to sports.')" 
+                    onmouseout="removeSceneryBox()">
+
+            <!--23 Nutrition and Food Science Building-->
+            <area shape="rect" 
+                    coords="273,481,
+                            392,497" 
+                    href="#" 
+                    alt="Nutrition and Food Science Building" 
+                    onmouseover="showSceneryBox('images/nutrition_bldg.jpg', 
+                                                'Nutrition and Food Science Building', 
+                                                'This is where the College of Nutrition and Food Science holds their classes and various activities.')" 
+                    onmouseout="removeSceneryBox()">
+            
+            <!--24 Track and Football Oval-->
+            <area shape="poly" 
+                    coords="454,378,
+                            512,297,
+                            544,281,
+                            561,280,
+                            584,289,
+                            598,302,
+                            610,329,
+                            607,360,
+                            550,444,
+                            526,460,
+                            506,463,
+                            486,460,
+                            472,452,
+                            457,436,
+                            451,423,
+                            448,402,
+                            454,378" 
+                    href="#" 
+                    alt="Track and Football Oval" 
+                    onmouseover="showLongText('images/pupoval.jpg', 
+                                                'Track and Football Oval', 
+                                                'Nearest location when entering through the East Gate, aside from the Gymnasium, this is also the training grounds of our PUP Mighty Maroons and our fellow isko and iska during practices for events')" 
+                    onmouseout="removeSceneryBox()">
+
+            <!--25 Physical Education Building-->
+            <area shape="rect" 
+                    coords="325, 46,
+                            352,145" 
+                    href="#" 
+                    alt="Physical Education Building" 
+                    onmouseover="sceneryBoxNoImg('Physical Education Building', 
+                                                'This is where most physical education subject activites take place. Located beside the PUP Swimming Pool')" 
+                    onmouseout="removeSceneryBox()">
+
+        
+            
+           
+
+            
+
+            
+            </map>
+            <span id="display"></span>
+        </main>
+
+    <footer>
+        <p>&copy; 2024 Andy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
