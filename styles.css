@@ -34,11 +34,16 @@ h2 {
     margin-left: -250px;
 }
 
+h1{
+    font-family: "Tilt Neon", sans-serif;
+    margin-left: 800px;
+}
 
 section{
     display: block;
     margin: auto;
     width: 700px;
+    font-family: "Tilt Neon", sans-serif;
 }
 
 section img{
