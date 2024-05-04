@@ -52,15 +52,15 @@ section img{
     right: 120px; /* Adjust as needed */
     width: 700px; /* Adjust as needed */
     height: 500px;
-    background-color: #f0f0f0;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(218, 102, 102, 0.1);
     display: flex; 
     flex-direction: column;
 }
 
 #area-name {
     text-align: center;
+    font-family: "Tilt Neon", sans-serif;
 }
 
 #image-container {
@@ -73,6 +73,7 @@ section img{
 }
 
 #description {
+    font-family: "Tilt Neon", sans-serif;
     margin-top: 5%;
     text-align: center;
     width: 500px;
