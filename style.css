@@ -1,0 +1,72 @@
+header{
+    width: 666px; /*scary number*/
+    margin:auto;
+    display: block;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    display: block;
+    margin: auto;
+    width: 700px;
+}
+
+main img{
+    margin: 15px;
+}
+
+#display{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+}
+
+#wrapper{
+    display: block;
+    width: 120%;
+    height: 120%;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 2px solid rgba(0, 0, 0, 0.65);
+}
+
+#wrapper2{
+    display: block;
+    width: 120%;
+    height: 65%;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 2px solid rgba(0, 0, 0, 0.65);
+}
+
+#wrapper3{
+    display: block;
+    width: 120%;
+    height: 140%;
+    text-align: center;
+    background: rgba(255,255,255,0.85);
+    border: 2px solid rgba(0, 0, 0, 0.65);
+}
+
+#wrapper img{
+    margin: auto;
+    margin-top: 5px;
+    height: 40%;
+    width: 95%;
+}
+
+#wrapper3 img{
+    margin: auto;
+    margin-top: 5px;
+    height: 40%;
+    width: 95%;
+}
+
+#imgid{
+    height: 100%;
+    width: 80%;
+}

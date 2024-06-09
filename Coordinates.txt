@@ -1,0 +1,222 @@
+Coordinates
+1 Done (Ampitheater) 
+
+2 rect (Water Pump Facility)
+    (175,40,
+    198,59)
+
+3 rect (Campus Development and Maintenance Building)!
+    (211,480,
+    266,496)
+
+4 rect (Catwalk)*
+    (448,212,
+    627,222)
+
+5 rect (Centennial Monument)*
+    (339,217,
+    358,235)
+
+6 poly (Charlie del Rosario Building)*
+    (96,175,
+    83,198,
+    165,246
+    178,222)
+    
+7 rect (East Gate)!
+    (619,458,
+    644,476)
+
+8 circle (Flag Pole)
+    (368,305,10)
+
+9 poly (Grandstand)*
+    (476,291,
+    488,301,
+    449,360,
+    435,351)
+
+10 rect (Gymnasium and Sports Center)*
+    (467,56,
+    579,114)
+
+11 Done
+
+12 poly (Laboratory Highschool)
+    (183,204
+    189,194,
+    164,95,
+    104,60,
+    87,79,
+    82,88,
+    71,110,
+    79,143,
+    183,204)
+
+13 poly (Lagoon)
+    (237,268,
+    312,260,
+    327,238,
+    306,204,
+    305,157,
+    285,160,
+    289,195,
+    265,245)
+
+14 poly (Dome)*
+    (247,328,
+    269,328,
+    288,363,
+    276,381,
+    237,385,
+    225,363,
+    247,328)
+
+15 (done)
+
+16 poly (North Wing)
+    (340,289,
+    342,294,
+    350,291,
+    358,305,
+    355,308,
+    359,313,
+    355,315,
+    359,324,
+    288,362,
+    268,328)
+
+17 poly (South Wing)*
+    (187,350,
+    227,423,
+    223,426,
+    230,440,
+    196,460,
+    188,447,
+    183,449,
+    143,374,
+    147,371,
+    141,359,
+    177,340,
+    182,351)
+
+18 poly (West Wing)
+   (225,363,
+    155,320,
+    158,313,
+    151,308,
+    160,296,
+    164,298,
+    167,290,
+    172,292,
+    177,284,
+    247,328,
+    225,363)
+
+19 circle (Main Gate)
+    (638,230,7)
+
+20 circle (Freedom Park)
+    (384,282,7)
+
+21 (done)
+
+22 (done)
+
+23 (done)
+
+24 poly (Track and Football Oval)
+    (454,378,
+    512,297,
+    544,281,
+    561,280,
+    584,289,
+    598,302,
+    610,329,
+    607,360,
+    550,444,
+    526,460,
+    506,463,
+    486,460,
+    472,452,
+    457,436,
+    451,423,
+    448,402,
+    454,378)
+
+25 rect (Physical Education Building)!
+    (325, 46,
+    352,145)
+
+26 circle (Pasig River)*
+    (55,401,7)
+
+27 rect (PUP Sta. Mesa Ferry Station)*
+    (142,457,
+     156,509)
+
+28 Access Road
+
+29 rect (Student Canteen)
+    (142,240,
+     148,262)
+
+30 circle (Linear Park)
+    (114,335,7)
+
+31 circle (Mural Brass Sculpture)*
+    (639,251,7)
+
+32 (done)
+
+33 poly (Property Building)!
+    (46,40,
+    87,39,
+    87,47,
+    77,47,
+    77,57,
+    66,55,
+    67,83,
+    56,83,
+    55,49,
+    46,48,
+    46,40)
+    
+34 circle (Pylon)
+    (638,208,7)
+
+35 poly (Sampaguita Building - Univ Canteen)*
+    (116,253,
+    149,273,
+    129,306,
+    106,292,
+    119,274,
+    106,268,
+    116,253)
+
+36 circle (Gazebo)!
+    (495,247,7)
+
+37 rect (PUP Swimming Pool)
+    (374,64,
+    449,104)
+
+38 rect (Tennis Court)
+    (500,144,
+    552,179)
+
+39 poly (RC Overhead Water Tank)*
+    (195,78,
+     205,78,
+     211,84,
+     211,94,
+     205,100,
+     196,100,
+     189,94,
+     189,85,
+     195,78
+    )
+
+40 circle (Covered Walkway)!
+    (643,158,
+    7)
